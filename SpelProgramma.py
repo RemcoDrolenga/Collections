@@ -1,10 +1,10 @@
 import random
 spelletjes = ['Monopoly', 'Yathzee', 'Bridge', 'Poker', 'Pesten', 'Mens erger je niet','Cluedo']
-def spelProgramma(Spellen):
-    randomGetal = random.randint(3,10000)
+Minimaal = 3
+Maximaal = 10
+def spelProgramma(Spellen,Minimaal,Maximaal):
+    randomGetal = random.randint(Minimaal,Maximaal)
     for i in range(randomGetal):
         randomspel = random.choice(Spellen)
         print(randomspel)
-
-
-spelProgramma(spelletjes)
+spelProgramma(spelletjes,Minimaal,Maximaal)
