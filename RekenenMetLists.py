@@ -28,4 +28,4 @@ def divideAndDisplayLists():
         Uitkomst.append(i1/i2)
     for i in range(len(Uitkomst)):
         print(ListOne[i],"/",ListTwo[i],"=",Uitkomst[i])
-# divideAndDisplayLists()
+divideAndDisplayLists()
